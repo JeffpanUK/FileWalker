@@ -44,7 +44,7 @@ class WalkThrough(object):
                     self.fo.write("[%d] %s\n"%(self.count, os.path.join(os.path.abspath(parent), filename)))
 
     def usage(self):
-        self.logger.error("Usage Example:\nwalk_files.py -s '2017-1-1 12:12:12' -e '2018-1-1 12:12:12' -r root_dir")
+        self.logger.error('''Usage Example:\nwalk_files.py -s "2017-1-1 12:12:12" -e "2018-1-1 12:12:12" -r root_dir''')
                 
         
 
